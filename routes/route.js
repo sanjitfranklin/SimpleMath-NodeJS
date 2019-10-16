@@ -6,10 +6,15 @@ router.get("/check", (req, res) => {
   res.send("Congratulations! Your app works! :)");
 });
 
+router.get("/hello", (req, res) => {
+  res.send("Hacktoberfest is cool :)");
+});    if (result < 0) {
+    if (result < 0) {
+
 router.post("add", (req, res) => {
   // Add logic here
 });
-
+#madeithere
 router.post("/power", (req, res) => {
   let param1 = req.body.param1;
   let param2 = req.body.param2;
