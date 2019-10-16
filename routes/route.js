@@ -9,7 +9,7 @@ router.get("/check", (req, res) => {
 router.post("add", (req, res) => {
   // Add logic here
 });
-
+#madeithere
 router.post("/power", (req, res) => {
   let param1 = req.body.param1;
   let param2 = req.body.param2;
