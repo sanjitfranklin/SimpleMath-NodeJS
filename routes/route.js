@@ -53,7 +53,7 @@ router.post("/factorial", (req, res) => {
         success: true,
         message: `Calculated ${param1} factorial`,
         code: 200
-      }
+      }#madebyme
     });
   } catch (err) {
     res.json({
